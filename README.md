@@ -79,10 +79,12 @@ src/sylveon/
 9. Component Specification: ✅
 10. Issue and Pull Request Templates ✅
 
-## Authors
+## More Info
 
-- Susmitha Kusuma
-- Berry Liu
-- Margaret Jagger
-- Calvin Tian
-- Kevin Zheng
+- This repository supports newer versions of Python, specifically Python >= 3.12. We chose to use pytest as our primary testing framework due to its ease of use, efficiency, and clean templates for testing. Sample tests are also provided such as a test asserting that 2+2==4. For our continuous integration solution, we integrated CircleCI within our repository to automatically run the test suite. This is triggered automatically on new commits made to the repository, and the status of each test is reported in the GitHub README.
+	
+- PDM (Python Dependency Management) is used in this repository to set up projects out of the box with the required dependencies and tools needed to run programs. We use mypy and black as our chosen static analysis and code formatting solutions, respectively. Pre-defined scripts are provided within pdm to lint, format, and test the program as necessary. Furthermore, a requirements.txt is provided for installing dependencies using a different package manager such as pip.
+
+- A Component Specification definition is provided in the repository along with sample components which exhibit how components are to be used. Two sample components are defined: “_hello” and “string_length” as examples of private and public components respectively.  The __main__.py file serves as the entry point into the library. Components that may be imported but not accessed by users or folders that contain them are marked with a single underscore in front of the file name (e.g. _accessory.py). A description of our file directory structure is provided for reference in how components should be laid out.
+
+- 	Lastly, example templates for issue and pull requests are provided in the .github directory. These templates are meant for future collaborators in the project to report bugs, request features, or submit new changes to the project in a standardized manner. The .gitignore file is configured to properly track files that Git should ignore.
