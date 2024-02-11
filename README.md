@@ -88,3 +88,12 @@ src/sylveon/
 - A Component Specification definition is provided in the repository along with sample components which exhibit how components are to be used. Two sample components are defined: “_hello” and “string_length” as examples of private and public components respectively.  The __main__.py file serves as the entry point into the library. Components that may be imported but not accessed by users or folders that contain them are marked with a single underscore in front of the file name (e.g. _accessory.py). A description of our file directory structure is provided for reference in how components should be laid out.
 
 - 	Lastly, example templates for issue and pull requests are provided in the .github directory. These templates are meant for future collaborators in the project to report bugs, request features, or submit new changes to the project in a standardized manner. The .gitignore file is configured to properly track files that Git should ignore.
+
+## Authors
+
+- Susmitha Kusuma
+- Berry Liu
+- Margaret Jagger
+- Calvin Tian
+- Kevin Zheng
+
