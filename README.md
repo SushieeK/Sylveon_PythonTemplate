@@ -89,11 +89,3 @@ src/sylveon/
 
 - 	Lastly, example templates for issue and pull requests are provided in the .github directory. These templates are meant for future collaborators in the project to report bugs, request features, or submit new changes to the project in a standardized manner. The .gitignore file is configured to properly track files that Git should ignore.
 
-## Authors
-
-- Susmitha Kusuma
-- Berry Liu
-- Margaret Jagger
-- Calvin Tian
-- Kevin Zheng
-
